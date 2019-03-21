@@ -1,15 +1,5 @@
-/*-----------------------------------------------------------------------------------
 
-  Template Name: Znews - HTML Magazine Template for Blogging and News Sites.
-  Template URI: https://themeforest.net/user/nilartstudio
-  Description: Znews is a unique website template designed in html with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design blog, magazine, news site or any other purposes websites.
-  Author: Nilartstudio
-  Author URI: http://Nilartstudio.com
-  Version: 1.0
-
------------------------------------------------------------------------------------
-
-  CSS INDEX
+/* CSS INDEX
   ===================
 
   1. Google fonts
@@ -911,15 +901,146 @@ p.error {
   color: red;
 }
 .sticky-menu {
-	left: 0;
-	margin: auto;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
-	z-index: 99;
-	-webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-	animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-	-webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-	background: #fff;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+    z-index: 99;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    background: #fff;
+}
+
+
+
+
+/*bener*/
+/*-- Color --*/
+.dark-grey {
+  background-color: #292929 !important;
+}
+
+.tosca {
+  background-color: #14A3B2 !important;
+}
+
+.white {
+  background-color: #FFFFFF !important;
+}
+
+.grey {
+  background-color: #F7F7F7 !important;
+}
+
+.red {
+  background-color: #ED3A25 !important;
+}
+
+/*-- Text Color --*/
+.text-grey {
+  color: #504848 !important;
+}
+
+.text-light-grey {
+  color: #A5A5A5 !important;
+}
+
+.text-tosca {
+  color: #14A3B2 !important;
+}
+
+/*-- Button --*/
+.btn-nav {
+  border: none;
+  background: none;
+}
+
+/*-- /Button --*/
+
+
+/*-- Add Style --*/
+main {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+/*-- Navbar --*/
+.navbar-kb {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar-kb ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.65rem 0.85rem;
+  text-decoration: none;
+}
+.navbar-kb ul li a.btn-upload {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 0.45rem 1.25rem;
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+.navbar-kb ul li a.btn-upload:hover {
+  color: #FFFFFF !important;
+}
+.navbar-kb ul li a:hover {
+  color: #14A3B2 !important;
+}
+
+.nav-top .nav-top-text {
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/*-- /Navbar --*/
+
+/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+ 
+.card img{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom:auto;
+  max-width:100%;
+  height: auto;
+
+}
+
+.Topchanel img{
+    position: relative;
+    z-index: 1;
+    top: 0px;
+}
+
+.Topchanel p{
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+    color: #fff;
 }
