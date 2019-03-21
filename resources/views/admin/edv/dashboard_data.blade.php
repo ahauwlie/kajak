@@ -17,7 +17,7 @@
 					</div>
 				</div>
 				<div class="right-title">
-					<button class="btn btn-info no-caret" type="button">Add New Item <i class="mdi mdi-plus"></i></button>
+					<a href="{{route('datatable.create')}}" class="btn btn-info no-caret" type="button">Add New Item <i class="mdi mdi-plus"></i></a>
 				</div>
 			</div>
 		</div>

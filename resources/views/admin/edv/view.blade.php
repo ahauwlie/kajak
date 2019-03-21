@@ -22,7 +22,7 @@
 		<section class="content">
 			<div class="box">
 				<div class="box-header with-border">
-					<h3 class="box-title">Edit Table</h3>
+					<h3 class="box-title">View Data Id: {{$posts->id}}</h3>
 				</div>
 				<div class="box-body">
 					<div class="row">

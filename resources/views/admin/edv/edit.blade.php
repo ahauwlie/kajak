@@ -1,7 +1,6 @@
 @extends('admin.master_edv')
 
 @section('content')
-
 	<div class="container-full">
 		<div class="content-header">
 			<div class="d-flex align-items-center">

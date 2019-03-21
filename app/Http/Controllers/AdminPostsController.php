@@ -9,7 +9,7 @@ class AdminPostsController extends Controller
 {
     public function index()
     {
-        $posts = Posts::paginate(7);
+        $posts = Posts::all();
         return view('admin.edv.dashboard_data', compact('posts'));
     }
     public function create()
@@ -22,22 +22,24 @@ class AdminPostsController extends Controller
         //in to database
         $this->validate($request,[
             'title'=>'required',
+            'category'=>'required',
             'content'=>'required',
-            'cont_sum'=>'required',
+            'slug'=>'required',
             'embed'=>'required',
             'publisher'=>'required',
-            'created_at'=>'required',
-            'id'=>'required',
-            'category'=>'required',
-            'slug'=>'required',
-            'viewed'=>'required',
-            'updated_at'=>'required'
-            ]);
-
-            $post = Posts::create($request->all());
-
-            return redirect()->route('admin.edv.view')->with('message', 'Artikel berhasil dibuat!');
-
+            'cont_sum'=>'required'
+        ]);
+        $posts = new Posts([
+            'title'    =>  $request->get('title'),
+            'category'     =>  $request->get('category'),
+            'content'     =>  $request->get('category'),
+            'slug'     =>  $request->get('category'),
+            'embed'     =>  $request->get('category'),
+            'publisher'     =>  $request->get('category'),
+            'cont_sum'     =>  $request->get('category')
+        ]);
+        $posts->save();
+        return redirect()->route('admin.edv.create')->with('success', 'Data Added');
     }
     public function show($id)
     {
