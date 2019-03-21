@@ -174,8 +174,6 @@
                                         <!-- Start single post layout C -->
                                         <article class="zm-post-lay-c zm-single-post clearfix">
                                             <div class="zm-post-thumb f-left">
-                                                <!-- <a href="blog-single-image.html" class="wh"><img src="images/post/c/11.jpg" alt="img"></a> -->
-                                                <!-- <img src="images/post/c/11.jpg" alt="img"> -->
                                                 <iframe class="iframewh" src="{{$row['embed']}}" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                 
                                             </div>
