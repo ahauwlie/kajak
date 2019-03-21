@@ -3,13 +3,13 @@
 	<a href="index-2.html" class="logo">
 		<!-- mini logo -->
 		<div class="logo-mini">
-			<span class="light-logo"><img src="images/admin/logo-light.png" alt="logo"></span>
-			<span class="dark-logo"><img src="images/admin/logo-dark.png" alt="logo"></span>
+			<span class="light-logo"><img src="<?php echo asset('images/admin/logo-light.png')?>" alt="logo"></span>
+			<span class="dark-logo"><img src="<?php echo asset('images/admin/logo-dark.png')?>" alt="logo"></span>
 		</div>
 		<!-- logo-->
 		<div class="logo-lg">
-			<span class="light-logo"><img src="images/admin/logo-light-text.png" alt="logo"></span>
-			<span class="dark-logo"><img src="images/admin/logo-dark-text.png" alt="logo"></span>
+			<span class="light-logo"><img src="<?php echo asset('images/admin/logo-light-text.png')?>" alt="logo"></span>
+			<span class="dark-logo"><img src="<?php echo asset('images/admin/logo-dark-text.png')?>" alt="logo"></span>
 		</div>
 	</a>
 	<!-- Header Navbar -->
@@ -60,7 +60,7 @@
 								<li><!-- start message -->
 									<a href="#">
 										<div class="pull-left">
-											<img src="images/admin/user2-160x160.jpg" class="rounded-circle" alt="User Image">
+											<img src="<?php echo asset('images/admin/user2-160x160.jpg')?>" class="rounded-circle" alt="User Image">
 										</div>
 										<div class="mail-contnet">
 											<h4>
@@ -75,7 +75,7 @@
 								<li>
 									<a href="#">
 										<div class="pull-left">
-											<img src="images/admin/user3-128x128.jpg" class="rounded-circle" alt="User Image">
+											<img src="<?php echo asset('images/admin/user3-128x128.jpg')?>" class="rounded-circle" alt="User Image">
 										</div>
 										<div class="mail-contnet">
 											<h4>
@@ -89,7 +89,7 @@
 								<li>
 									<a href="#">
 										<div class="pull-left">
-											<img src="../images/admin/user4-128x128.jpg" class="rounded-circle" alt="User Image">
+											<img src="<?php echo asset('images/admin/user4-128x128.jpg')?>" class="rounded-circle" alt="User Image">
 										</div>
 										<div class="mail-contnet">
 											<h4>
@@ -103,7 +103,7 @@
 								<li>
 									<a href="#">
 										<div class="pull-left">
-											<img src="images/admin/user3-128x128.jpg" class="rounded-circle" alt="User Image">
+											<img src="<?php echo asset('images/admin/user3-128x128.jpg')?>" class="rounded-circle" alt="User Image">
 										</div>
 										<div class="mail-contnet">
 											<h4>
@@ -117,7 +117,7 @@
 								<li>
 									<a href="#">
 										<div class="pull-left">
-											<img src="images/admin/user4-128x128.jpg" class="rounded-circle" alt="User Image">
+											<img src="<?php echo asset('images/admin/user4-128x128.jpg')?>" class="rounded-circle" alt="User Image">
 										</div>
 										<div class="mail-contnet">
 											<h4>
@@ -205,13 +205,13 @@
 				<!-- User Account-->
 				<li class="dropdown user user-menu">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="User">
-						<img src="images/admin/7.jpg" class="user-image rounded-circle" alt="User Image">
+						<img src="<?php echo asset('images/admin/7.jpg')?>" class="user-image rounded-circle" alt="User Image">
 					</a>
 					<ul class="dropdown-menu animated flipInX">
 						<!-- User image -->
 						<li class="user-header bg-img" style="background-image: url(images/admin/user-info.jpg)" data-overlay="3">
 							<div class="flexbox align-self-center">					  
-								<img src="images/admin/7.jpg" class="float-left rounded-circle" alt="User Image">					  
+								<img src="<?php echo asset('images/admin/7.jpg')?>" class="float-left rounded-circle" alt="User Image">					  
 								<h4 class="user-name align-self-center">
 									<span>Samuel Brus</span>
 									<small>samuel@gmail.com</small>

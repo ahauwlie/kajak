@@ -10,7 +10,7 @@ class AdminPostsController extends Controller
     public function index()
     {
         $posts = Posts::paginate(7);
-        return view('admin.datatables', compact('posts'));
+        return view('admin.edv.view', compact('posts'));
     }
     public function create()
     {
@@ -26,7 +26,8 @@ class AdminPostsController extends Controller
     }
     public function edit($id)
     {
-        //
+        $posts = Posts::find($id);
+        return view('admin.edv.edit', compact('posts', 'id'));
     }
     public function update(Request $request, $id)
     {

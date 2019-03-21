@@ -7,23 +7,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- Place favicon.ico in the root directory -->
-   <!--  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="apple-touch-icon.html"> -->
-    
     <!-- All css files are included here. -->
     <!-- Bootstrap fremwork main css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/core.css">
-    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/style-customizer.css">
+    <link rel="stylesheet" href="<?php echo asset('css/bootstrap.min.css')?>">
+    <link rel="stylesheet" href="<?php echo asset('css/core.css')?>">
+    <link rel="stylesheet" href="<?php echo asset('css/shortcode/shortcodes.css')?>">
+    <link rel="stylesheet" href="<?php echo asset('css/style.css')?>">
+    <link rel="stylesheet" href="<?php echo asset('css/responsive.css')?>">
+    <link rel="stylesheet" href="<?php echo asset('css/custom.css')?>">
+    <link rel="stylesheet" href="<?php echo asset('css/style-customizer.css')?>">
      <!-- Import Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <!-- Style customizer (Remove these lines please) -->
-    <link rel="stylesheet" href="css/style-customizer.css">
     <!-- Import Slick CSS -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- Import Icon CSS-->
