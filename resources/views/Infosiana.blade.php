@@ -100,58 +100,6 @@
         </header>
         <!-- End of header area -->
 
-        <!-- Start Slider post area -->
-        <div class="slider-post-area ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col-md-12 " style="height: 50%">
-                        <div class="slider-post-area-content">
-                            <ul class="slide-posts owl-carousel list-unstyled">
-                                <li class="item">
-                                    <img src="images/post/slider/1.jpg" alt="img">
-                                </li>
-                                <li class="item">
-                                    <img src="images/post/slider/2.jpg" alt="img">
-                                </li>
-                                <li class="item">
-                                    <img src="images/post/slider/3.jpg" alt="img">
-                                </li>
-                                <li class="item">
-                                    <img src="images/post/slider/4.jpg" alt="img">
-                                </li>
-                                <li class="item">
-                                    <img src="images/post/slider/5.jpg" alt="img">
-                                </li>
-                                <li class="item">
-                                    <img src="images/post/slider/6.jpg" alt="img">
-                                </li>
-                            </ul><!--/.owl-slider-->
-                            <ul class="posts-thumbnails-wrapper list-unstyled">
-                                <li class="post-thumbnail">
-                                    <a href="#"><img src="images/post/slider/1.jpg" alt="img"></a>
-                                </li>
-                                <li class="post-thumbnail">
-                                    <a href="#"><img src="images/post/slider/2.jpg" alt="img"></a>
-                                </li>
-                                <li class="post-thumbnail">
-                                    <a href="#"><img src="images/post/slider/3.jpg" alt="img"></a>
-                                </li>
-                                <li class="post-thumbnail">
-                                    <a href="#"><img src="images/post/slider/4.jpg" alt="img"></a>
-                                </li>
-                                <li class="post-thumbnail">
-                                    <a href="#"><img src="images/post/slider/5.jpg" alt="img"></a>
-                                </li>
-                                <li class="post-thumbnail">
-                                    <a href="#"><img src="images/post/slider/6.jpg" alt="img"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-        </div>
-        <!-- End Slider post area -->
         <!-- Start page content -->
         <section id="page-content" class="page-wrapper">
             <div class="zm-section bg-white pt-30 xs-pt-30 sm-pt-30 pb-40">
@@ -162,7 +110,7 @@
                             <div class="row mb-40">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <div class="section-title">
-                                        <h2 class="h6 header-color inline-block uppercase">Latest News</h2>
+                                        <h2 class="h6 header-color inline-block uppercase">Infosiana</h2>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +122,7 @@
                                 <div class="col-md-12">
                                     <div class="zm-posts">
                                         @foreach($posts as $row)
-                                        <!-- Start post news -->
+                                        <!-- Start post Infosiana News -->
                                         <article class="zm-post-lay-c zm-single-post clearfix">
                                             <div class="zm-post-thumb f-left">
                                                 <iframe class="iframewh" src="{{$row['embed']}}" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -199,7 +147,7 @@
                                         @endforeach
 
                                         {{$posts->links()}}
-                                        <!-- End post news-->
+                                        <!-- End post Infosiana News -->
                                     </div>
                                 </div>
                             </div>
@@ -242,7 +190,7 @@
                                 <div class="advertisement">
                                     <div class="row mt-40">
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                            <a href="http://merahputih.com/"><img src="images/ad/2.png" alt=""></a>
+                                            <a href="#"><img src="images/ad/2.png" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -251,6 +199,10 @@
                         </div>
                         <!-- End Right sidebar -->
                     </div>
+
+                   
+
+                  
                 </div>
             </div>
         </section>

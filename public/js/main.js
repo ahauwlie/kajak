@@ -111,12 +111,12 @@
     /*-------------------------------------------
         07. ScrollUp jquery
     --------------------------------------------- */
-    $.scrollUp({
-        scrollText: '<i class="fa fa-angle-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'slide'
-    });
+    // $.scrollUp({
+    //     scrollText: '<i class="fa fa-angle-up"></i>',
+    //     easingType: 'linear',
+    //     scrollSpeed: 900,
+    //     animation: 'slide'
+    // });
 
     /*-------------------------------------------
         08. Tooltip
@@ -581,3 +581,12 @@
     //$("img").lazyload();
 
 })(jQuery);
+
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
