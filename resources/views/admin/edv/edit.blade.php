@@ -27,37 +27,30 @@
 				</div>
 				<div class="box-body">
 					<div class="form-group">
-						<input class="form-control" placeholder="Title:" >
+						<input class="form-control" placeholder="Title:" value="{{$posts->title}}">
 					</div>
 					<div class="form-group">
-						<input class="form-control" placeholder="Category:" >
+						<input class="form-control" placeholder="Category:" value="{{$posts->category}}">
 					</div>
 					<div class="form-group">
 						<textarea id="compose-textarea" class="form-control" style="height: 150px">
-							<p>Content Here....</p>
+							{{$posts->content}}
 						</textarea>
 					</div>
 					<div class="form-group">
-						<input class="form-control" placeholder="Slug:">
+						<input class="form-control" placeholder="Slug:" value="{{$posts->slug}}">
 					</div>
 					<div class="form-group">
-						<input class="form-control" placeholder="Embed:">
+						<input class="form-control" placeholder="Embed:" value="{{$posts->embed}}">
 					</div>
 					<div class="form-group">
-						<input class="form-control" placeholder="Publisher:">
+						<input class="form-control" placeholder="Publisher:" value="{{$posts->publisher}}">
 					</div>
 					<div class="form-group">
 						<textarea id="compose-textarea1" class="form-control" style="height: 150px">
-							<p>Content Summary Here....</p>
+							{{$posts->cont_sum}}
 						</textarea>
 					</div>
-					<!-- <div class="form-group">
-						<div class="btn btn-rounded btn-info btn-file">
-							<i class="fa fa-paperclip"></i> Attachment
-							<input type="file" name="attachment">
-						</div>
-						<p class="help-block">Max. 32MB</p>
-					</div> -->
 				</div>
 				<div class="box-footer">
 					<div class="pull-right">
