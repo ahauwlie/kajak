@@ -12,6 +12,7 @@
 			<p>Users</p>
 			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
 		</div>
+		
 		<div class="lookup lookup-sm lookup-right d-none d-lg-block">
 			<input type="text" name="s" placeholder="Search" class="w-p100">
 		</div>

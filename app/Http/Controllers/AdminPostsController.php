@@ -14,11 +14,30 @@ class AdminPostsController extends Controller
     }
     public function create()
     {
-        //
+        //create to 
+        return view('admin.edv.create');
     }
     public function store(Request $request)
     {
-        //
+        //in to database
+        $this->validate($request,[
+            'title'=>'required',
+            'content'=>'required',
+            'cont_sum'=>'required',
+            'embed'=>'required',
+            'publisher'=>'required',
+            'created_at'=>'required',
+            'id'=>'required',
+            'category'=>'required',
+            'slug'=>'required',
+            'viewed'=>'required',
+            'updated_at'=>'required'
+            ]);
+
+            $post = Posts::create($request->all());
+
+            return redirect()->route('admin.edv.view')->with('message', 'Artikel berhasil dibuat!');
+
     }
     public function show($id)
     {
