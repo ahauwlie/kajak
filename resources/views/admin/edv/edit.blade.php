@@ -27,26 +27,33 @@
 				</div>
 				<div class="box-body">
 					<div class="form-group">
+						<h3>Title</h3>
 						<input class="form-control" placeholder="Title:" value="{{$posts->title}}">
 					</div>
 					<div class="form-group">
+						<h3>Category</h3>
 						<input class="form-control" placeholder="Category:" value="{{$posts->category}}">
 					</div>
 					<div class="form-group">
+						<h3>Content</h3>
 						<textarea id="compose-textarea" class="form-control" style="height: 150px">
 							{{$posts->content}}
 						</textarea>
 					</div>
 					<div class="form-group">
+						<h3>Slug</h3>
 						<input class="form-control" placeholder="Slug:" value="{{$posts->slug}}">
 					</div>
 					<div class="form-group">
+						<h3>Embed</h3>
 						<input class="form-control" placeholder="Embed:" value="{{$posts->embed}}">
 					</div>
 					<div class="form-group">
+						<h3>Publisher</h3>
 						<input class="form-control" placeholder="Publisher:" value="{{$posts->publisher}}">
 					</div>
 					<div class="form-group">
+						<h3>Summary Content</h3>
 						<textarea id="compose-textarea1" class="form-control" style="height: 150px">
 							{{$posts->cont_sum}}
 						</textarea>
@@ -56,7 +63,7 @@
 					<div class="pull-right">
 						<button type="submit" class="btn btn-rounded btn-success"><i class="fa fa-envelope-o"></i> Send</button>
 					</div>
-					<button type="reset" class="btn btn-rounded btn-danger"><i class="fa fa-times"></i> Discard</button>
+					<a href="{{ url('datatable') }}" class="btn btn-rounded btn-danger"><i class="fa fa-times"></i> Discard</a>
 				</div>
 			</div>
 		</section>
