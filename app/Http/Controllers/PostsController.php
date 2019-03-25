@@ -9,8 +9,6 @@ class PostsController extends Controller
 {
     public function index()
     {
-        // $posts = Posts::all()->toArray();
-        $posts = Posts::orderBy('created_at', 'DESC')->paginate(10);
-        return view('home', compact('posts'));
+        
     }
 }
